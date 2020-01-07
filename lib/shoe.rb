@@ -34,8 +34,12 @@ class Shoe
     @material
   end
  
-  def turn_page
-    puts "Flipping the page...wow, you read fast!"
+  def material=(material)
+    @material = material
+  end
+ 
+  def material
+    @material
   end
  
 end
