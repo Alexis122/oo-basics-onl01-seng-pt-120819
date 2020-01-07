@@ -27,11 +27,11 @@ class Shoe
   end
  
   def material=(material)
-    @material = genre
+    @material = material
   end
  
-  def genre
-    @genre
+  def material
+    @material
   end
  
   def turn_page
