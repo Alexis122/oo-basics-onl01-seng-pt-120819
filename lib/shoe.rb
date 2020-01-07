@@ -26,8 +26,8 @@ class Shoe
     @size
   end
  
-  def genre=(genre)
-    @genre = genre
+  def material=(material)
+    @material = genre
   end
  
   def genre
